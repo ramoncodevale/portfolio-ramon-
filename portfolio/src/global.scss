@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+body {
+ background: linear-gradient(180deg, #000212 0%, #000212 100%);
+}
