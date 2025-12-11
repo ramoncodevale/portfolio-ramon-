@@ -1,6 +1,7 @@
 import './header.scss'
 
 import Download from '../../assets/download.png'
+import Logo from '../../../public/logo-portfolio.png'
 
 
 const Header = () => {
@@ -8,6 +9,7 @@ const Header = () => {
         <header>
             <nav>
                 <div className='logo'>
+                    <img src={Logo} alt="Logo do Portfólio" />
                     <p>Personal</p>
                 </div>
 

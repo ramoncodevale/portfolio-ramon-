@@ -1,9 +1,15 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Sora", sans-serif;
+}
+
+
+:root {
+  --background-color-primary: #FFFFFF;
+  --color-text-primary: #000000;
+  --background-color-secondary: #27272A;
 }
 
 .container {
@@ -25,5 +31,5 @@
 }
 
 body {
- background: linear-gradient(180deg, #000212 0%, #000212 100%);
+  background-color: var(--background-color-primary) ;
 }
