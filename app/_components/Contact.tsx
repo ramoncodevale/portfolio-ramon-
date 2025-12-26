@@ -37,7 +37,7 @@ export default function Contact() {
               className="p-5 rounded-full bg-[#0C0F1A] border border-[#E6E8EC]/10 text-[#9CA3AF] hover:text-[#7CFFB2] hover:border-[#7CFFB2] hover:scale-110 hover:shadow-[0_0_20px_rgba(124,255,178,0.2)] transition-all duration-300"
               title="GitHub"
             >
-              <Github className="w-6 h-6" />
+              <Github size={24} />
             </a>
 
             <a
@@ -47,7 +47,7 @@ export default function Contact() {
               className="p-5 rounded-full bg-[#0C0F1A] border border-[#E6E8EC]/10 text-[#9CA3AF] hover:text-[#7CFFB2] hover:border-[#7CFFB2] hover:scale-110 hover:shadow-[0_0_20px_rgba(124,255,178,0.2)] transition-all duration-300"
               title="LinkedIn"
             >
-              <Linkedin className="w-6 h-6" />
+              <Linkedin size={24} />
             </a>
 
             <a
@@ -57,7 +57,7 @@ export default function Contact() {
               className="p-5 rounded-full bg-[#0C0F1A] border border-[#E6E8EC]/10 text-[#9CA3AF] hover:text-[#7CFFB2] hover:border-[#7CFFB2] hover:scale-110 hover:shadow-[0_0_20px_rgba(124,255,178,0.2)] transition-all duration-300"
               title="WhatsApp"
             >
-              <FaWhatsapp className="w-6 h-6" />
+              <FaWhatsapp size={24} />
             </a>
           </div>
         </div>
